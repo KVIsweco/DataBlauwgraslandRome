@@ -29,7 +29,9 @@ Kaart van sample-punten in het gebied 'Rome' (Friesland).
 
 U kunt de datasets 'DataBlauwgraslandRome' als volgt installeren in R:
 
-`devtools::install_github("KeesVanImmerzeel/DataBlauwgraslandRome")`
+```R
+devtools::install_github("KVIsweco/DataBlauwgraslandRome")
+```
 
 De datasets zijn daarna gereed voor gebruik als u deze inleest met:
 

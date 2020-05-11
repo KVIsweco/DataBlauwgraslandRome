@@ -12,6 +12,6 @@ ahn
 }
 \description{
 Bron: AHN5 (resolutie 5x5 meter); (\url{https://www.ahn.nl/})
-Eenheid: m+nap.
+Eenheid: m+NAP.
 }
 \keyword{datasets}

@@ -5,7 +5,6 @@ library(dplyr)
 library(sp)
 library(raster)
 library(rgdal)
-#library(caret)
 
 crsAfoort <- sp::CRS("+init=epsg:28992") # epsg projection 28992 - amersfoort
 
