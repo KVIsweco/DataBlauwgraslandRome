@@ -41,6 +41,10 @@ De datasets zijn daarna gereed voor gebruik als u deze inleest met:
 `library("DataBlauwgraslandRome")`
 
 ## Documentatie
+Meer informatie over de package wordt verkregen met:
+
+`?DataBlauwgraslandRome`
+
 De documentatie van de verschillende datasets is als volgt beschikbaar: 
 
 `?stk` `?ahn` of `?sampled_area`.
