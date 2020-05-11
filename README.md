@@ -10,6 +10,9 @@ Deze R-library bevat drie datasets die betrekking hebben op het gebied 'Rome' (F
 * ahn
 * sampled_area
 
+De datasets zijn verkregen door het verwerken van de basis informatie in de folder `data-raw`. 
+De verwerking is gedaan met het script `raw_data.R` in deze folder. 
+
 ## Dataset 'stk'
 
 * `Veg`: Voorkomen van blauwgrasland.
