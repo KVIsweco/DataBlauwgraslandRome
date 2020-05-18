@@ -9,6 +9,7 @@ Deze R-library bevat drie datasets die betrekking hebben op het gebied 'Rome' (F
 * stk
 * ahn
 * sampled_area
+* perceel
 
 De datasets zijn verkregen door het verwerken van de basis informatie in de folder `data-raw`. 
 De verwerking is gedaan met het script `raw_data.R` in deze folder. 
@@ -27,6 +28,9 @@ Maaiveldhoogte in het onderzoeksgebied 'Rome' (Friesland).
 
 ## Dataset 'sampled_area'
 Kaart van sample-punten in het gebied 'Rome' (Friesland).
+
+## Dataset 'perceel'
+Kaart met punten voor een mogelijke optimalisatie van de GxG.
 
 ## Installatie
 
@@ -47,5 +51,5 @@ Meer informatie over de package wordt verkregen met:
 
 De documentatie van de verschillende datasets is als volgt beschikbaar: 
 
-`?stk` `?ahn` of `?sampled_area`.
+`?stk` `?ahn`, `?sampled_area` of `?perceel`.
 

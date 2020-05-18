@@ -36,6 +36,11 @@
 #' in de sample punten met een waarde 0 is (in een deel van de rasters of van alle rasters) deze informatie niet aanwezig.
 "sampled_area"
 
+#' perceel: Kaart met punten voor een mogelijke optimalisatie van de GxG.
+#'
+#' 1: mogelijke optimalisatie. Anders: NA.
+#' resolutie 5x5 meter.
+"perceel"
 
 
 

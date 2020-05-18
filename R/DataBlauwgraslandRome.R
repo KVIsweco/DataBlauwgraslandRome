@@ -8,9 +8,10 @@
 #' \item \code{stk}
 #' \item \code{ahn}
 #' \item \code{sampled_area}
+#' \item \code{perceel}
 #'}
 #'
-#' Meer informatie over deze datasets: ?stk, ?ahn, ?sampled_area.
+#' Meer informatie over deze datasets: ?stk, ?ahn, ?sampled_area of ?perceel
 #'
 #' @docType package
 #' @name DataBlauwgraslandRome

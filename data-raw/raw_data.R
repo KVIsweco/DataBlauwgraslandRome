@@ -110,7 +110,13 @@ names(stk) <- c("Veg","GVG","GLG","GHG","Gt","GVGtovKl","GLGtovKl","Bofek","Diep
 # informatie beschikbaar is om een model mee te bouwen.
 sampled_area <- get_raster_of_sampled_area(stk)
 
+# Maak raster kaart met het perceel waar optimalisatie plaatsvindt.
+# Lees eerst de shape met de begrenzing van het perceel.
+x <- rgdal::readOGR("./data-raw", "OptPerceel")
+perceel <- raster::rasterize(x,stk$Veg)
+
 # Save package data.
 usethis::use_data(stk, overwrite = TRUE)
 usethis::use_data(ahn, overwrite = TRUE)
 usethis::use_data(sampled_area, overwrite = TRUE)
+usethis::use_data(perceel, overwrite = TRUE)
