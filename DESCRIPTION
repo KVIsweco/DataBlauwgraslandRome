@@ -12,7 +12,7 @@ Maintainer: Kees van Immerzeel <c.h.van.immerzeel@gmail.com>
 Description: Voor de analyse van het voorkomen van blauwgrasland in
     in het gebied Rome (Friesland) zijn raster kaarten bijeengebracht
     die zijn opgenomen in deze package.
-License: CC0
+License: Artistic-2.0
 Encoding: UTF-8
 LazyData: true
 Depends: 
