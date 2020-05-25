@@ -2,8 +2,13 @@ Package: DataBlauwgraslandRome
 Type: Package
 Title: Data package met informatie over het gebied Rome (Friesland)
 Version: 0.1.0
-Author: Kees van Immerzeel
-Maintainer: Kees van Immerzeel <kees.vanimmerzeel@sweco.nl>
+Authors@R: 
+    person(given = "Kees",
+           family = "van Immerzeel",
+           role = c("aut", "cre"),
+           email = "c.h.van.immerzeel@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0003-0926-3248"))
+Maintainer: Kees van Immerzeel <c.h.van.immerzeel@gmail.com>
 Description: Voor de analyse van het voorkomen van blauwgrasland in
     in het gebied Rome (Friesland) zijn raster kaarten bijeengebracht
     die zijn opgenomen in deze package.

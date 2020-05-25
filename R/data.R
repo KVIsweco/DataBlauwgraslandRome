@@ -39,7 +39,7 @@
 #' perceel: Kaart met punten voor een mogelijke optimalisatie van de GxG.
 #'
 #' 1: mogelijke optimalisatie. Anders: NA.
-#' resolutie 5x5 meter.
+#' Resolutie 5x5 meter.
 "perceel"
 
 
